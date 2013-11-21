@@ -8,6 +8,14 @@ Download from http://example.com/FIXME.
 
 ## Usage
 
+```bash
+lein repl
+# In Clojure REPL
+
+'(play-cascalog.core)
+(print-file "file_location")
+```
+
 FIXME: explanation
 
     $ java -jar play-cascalog-0.1.0-standalone.jar [args]
