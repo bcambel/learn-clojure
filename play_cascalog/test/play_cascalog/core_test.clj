@@ -1,6 +1,6 @@
-(ns play-cascalog.core-test
+(ns play_cascalog.core-test
   (:require [clojure.test :refer :all]
-            [play-cascalog.core :refer :all]))
+            [play_cascalog.core :refer :all]))
 
 (deftest a-test
   (testing "FIXME, I fail."

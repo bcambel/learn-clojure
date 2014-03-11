@@ -3,16 +3,17 @@
 ;; right.
 ;(println "helo ther")
 
+(defn testing [x]
+  (println (format "Testing")))
+
+
 (defn looper [n]
   (loop [x 0]
     (if (> x n)
        nil
       (do
         (println (str "Yoo" x))
-        (recur (inc x))
-        )
-      )
-    )
+        (recur (inc x)))))
   x)
 
 ;(looper 10)
